@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'LifeCraft';
+    src: URL('LifeCraft.ttf') format('truetype');
+  }
+
 body {
-    /* height: 100%; */
-    background-image: url(/6038026-world-of-warcraft-blizzard-epic-wow-warcraft.jpg);
+    height: 100%;
+    background-image: url(/wow-bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    font-family: "LifeCraft";
+    letter-spacing: 3px;
 }
 
 .wrapper {
