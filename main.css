@@ -38,7 +38,31 @@ body {
 }
 
 #greeting {
-    font-size: 3.5vh;
+    font-size: 4vh;
+    margin-bottom: 20px;
+}
+
+.search {
+    overflow: hidden;
+}
+
+.search input {
+    font-family: 'Lifecraft';
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    width: 80%;
+    border:none;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    background-color: transparent;
+    color: #fff;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+.search input::placeholder {
+    opacity: 1;
+    color:#fff;
 }
 
 #time,
