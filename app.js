@@ -17,6 +17,7 @@ time = () => {
         h = "0" + h;
     }
 
+    // Greetings need separation from setInterval
     if (h === 0 || h < 7) {
         greeting.innerText = "Good Night"
     } else if (h >= 7 && h < 13) {
