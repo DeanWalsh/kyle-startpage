@@ -58,7 +58,7 @@ body {
 }
 
 .link a img {
-    max-width: 80px;
-    max-height: 60px;
+    max-width: 3.5vw;
+    max-height: 3.5vh;
     margin: 0 10px;
 }
