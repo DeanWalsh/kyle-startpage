@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'LifeCraft';
     src: URL('LifeCraft.ttf') format('truetype');
-  }
+}
 
 body {
     height: 100%;
@@ -33,13 +33,16 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
+    border: #fff 3px solid;
+    box-shadow: 5px 5px 15px 3px rgb(0, 0, 0);
 }
 
 #greeting {
     font-size: 3.5vh;
 }
 
-#time, #date {
+#time,
+#date {
     font-size: 2.8vh;
 }
 
