@@ -18,13 +18,13 @@ time = () => {
     }
 
     if (h === 0 || h < 7) {
-        greeting.innerText = "Good Night Kyle"
+        greeting.innerText = "Good Night"
     } else if (h >= 7 && h < 13) {
-        greeting.innerText = "Good Morning Kyle"
+        greeting.innerText = "Good Morning"
     } else if (h >= 13 && h < 19) {
-        greeting.innerText = "Good Afternoon Kyle"
+        greeting.innerText = "Good Afternoon"
     } else {
-        greeting.innerText = "Good Evening Kyle"
+        greeting.innerText = "Good Evening"
     }
 
     date.innerHTML = day
